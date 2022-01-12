@@ -1,0 +1,50 @@
+extends base.pug
+
+block scripts
+    script(src="/static.index.js") 
+
+block style
+    style 
+     include ../static/style.css
+    //-  include ../static/home.css
+    
+block content
+    nav#navbar 
+        div.image 
+        img(src="", alt=" ")
+
+
+        | vk creation
+        ul 
+        li #[a(href="/") home]
+                
+         li #[a(href="/contact") contact ]
+
+
+    section#introsection
+       div.we welcome to world of web 
+       div#oder.we order your website 
+    //-    comments feature to be added
+    
+    section#sponerssection 
+            h3 order your website now
+            div.card 
+                h3 this is vasudev
+            div.card#card2
+               
+                h3 we will contact you by email
+            //- div.card#before
+                
+            //-     p before hosting a metting link will be sent to you by mail,so that your website  can be customise according to you
+            div#before.sp
+               
+                p  befor hosting a metting link will be sent to you by mail,so that your website  can be customise according to you
+
+            div.card#cardt
+                
+               
+                h3 pay once when you are satisfied with your website which wiil be shown during metting 
+            div.card#cardfo
+                h3 after hosting money will not be refunded
+            div.card#cardfi
+                h3 once payment is done you wiil recive bill recipt on your email id

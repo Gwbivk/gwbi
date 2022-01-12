@@ -1,0 +1,609 @@
+*{
+margin: 0;
+padding: 0;
+font-family: cursive;
+box-sizing: border-box;
+}
+
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    
+    background-color: #0c2688;
+    padding: 12px 28px;
+    color: white;
+    font-size: 18px;
+    
+    
+}
+#navbar li{
+    list-style: none;
+    
+}
+#navbar li a{
+    cursor: pointer;
+    text-decoration: none;
+    padding: 7px 4px;
+    color: white;
+    font-size: 25px;
+    font-style: bold;
+    
+}
+#navbar li a:hover{
+    color: rgb(93, 199, 202);
+
+}
+
+
+
+#introsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background:center/cover no-repeat url("../static/bg.jpeg");
+    height: 500px;
+    color:white;
+    padding: 127px;
+    padding-bottom: 40px;
+    font-size: 35px;
+}
+#sponerssection{
+background-color: rgb(166, 216, 245);
+
+color: brown;
+
+}
+
+#sponerssection h3{
+
+    padding: 23px;
+    font-size: 25px;
+    text-align: center;
+    color: whitesmoke;
+    font-style: italic;
+   
+}
+.card p{
+   
+    color: green;
+    font-style: italic;
+}
+#footer{
+background-color: orange;
+display:flex;
+justify-content: center;
+margin: 2px;
+
+}
+.we{
+    display: flex;
+    
+    margin: auto;
+    width: 67%;
+    
+    justify-content: center;
+
+}
+#oder{
+    font-size: 30px;
+}
+ .card{
+    border-radius: 5px;
+    border:  2px solid rgb(252, 253, 248);
+    
+    width: 30%;
+    margin: 14px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+
+    
+
+}
+
+#card h3 {
+   text-align: center;
+   margin: 25px;
+   margin: auto;
+
+}
+#before{
+    color: rgb(235, 220, 12);
+    border:  2px solid rgb(252, 253, 248);
+    
+    width: 30%;
+    margin: 14px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+
+}
+.card#before{
+    color: pink;
+    font-size: 24px
+    
+}
+
+@media (min-width: 360px) and (max-width:374px){
+    #navbar{
+       background-color: rgb(226, 0, 38);
+    }
+    #introsection{
+       height: 430px;
+       color: white;
+       padding: 65px;
+       padding-bottom: 40px;
+       font-size: 58px;
+
+    }
+    .card{
+        width: 80%;
+        margin: 14px;
+        margin-left: 35px;
+        height: 200px;
+    }
+    #before{
+        width: 79%;
+        margin: 14px;
+        margin-left: 35px;
+        padding: 12px;
+        height: 208px;
+        color: white;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    #sponerssection h3 {
+        padding: 12px;
+
+    }
+}
+@media (min-width: 375px) and (max-width:410px){
+    #navbar{
+       background-color: rgb(190, 20, 48);
+       
+    }
+    #introsection{
+        height: 421px;
+        padding-bottom: 81px;
+        font-size: 74px;
+        padding: 66px;
+    }
+    .card{
+        width: 71%;
+        margin-left: 47px;
+        padding: 8px;
+        margin-bottom: 13px;
+    }
+    
+    #sponerssection h3{
+        padding: 5px;
+    }
+    #before{
+        color: white;
+        font-weight: bold;
+        border: 2px solid rgb(252, 253, 248);
+        width: 71%;
+        margin-left: 46px;
+        height: 206px;
+        display: inline-block;
+        text-align: center;
+        font-size: 24px;
+    }
+    #sponerssection{
+        background-color: rgb(166, 216, 245);
+        background-color: rgb(2, 17, 26);
+        /* height: 1000px; */
+    color: brown;
+}
+
+}
+
+/* @media (min-width: 411px) and (min-height:767px){
+    #before{
+
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 9px;
+    border: 2px solid rgb(252, 253, 248);
+    width: 81%;
+    margin: 14px;
+    margin-left: 44px;
+}
+} */
+@media (min-width: 411px) and (max-width:500px){
+    #navbar{
+       background-color: rgb(248, 68, 24);
+       
+    }
+    #introsection{
+        height: 420px;
+    color: #f07f0f;
+    padding: 127px;
+    padding-bottom: 159px;
+    font-size: 63px;
+    }
+    .card{
+       
+        width: 72%;
+        margin: 4px;
+        margin-left: 59px;
+        height: 211px;
+    }
+    #before{
+        color: white;
+        font-weight: bold;
+        padding: 22px;
+        border: 2px solid rgb(252, 253, 248);
+        width: 73%;
+        margin: 14px;
+        margin-left: 59px;
+        height: 213px;
+    }
+    #sponerssection {
+        background-color: black;
+        }
+}
+@media (min-width:320px) and (max-width:359px) {
+    #introsection{
+
+    height: 410px;
+    color: #f4a8c2;
+    padding: 16px;
+    padding-bottom: 40px;
+    font-size: 64px; 
+    }
+    .card{
+        border: 2px solid rgb(252, 253, 248);
+        width: 86%;
+        margin: 8px;
+        margin-left: 21px;
+        height: 200px;
+    }
+    #sponerssection h3 {
+        padding: 14px;
+    }
+    #sponerssection {
+        background-color: black;
+        }
+     #before{
+        color: white;
+        font-weight: bold;
+        border: 2px solid rgb(252, 253, 248);
+        width: 85%;
+        margin: 14px;
+        margin-left: 22px;
+        height: 200px;
+        font-size: 22px;
+     }
+     
+     /* intro 375section color: #f27610; */
+
+}
+@media (min-width:768px) and (max-width:776px){
+    #card2{
+    padding: 9px;
+    
+    margin: 12px 34px 34px 64px;
+    position:absolute;
+    margin-left: 57px;
+    }
+    .card {
+        border-radius: 5px;
+        border: 2px solid rgb(252, 253, 248);
+        width: 42%;
+        margin: 14px;
+        height: 200px;
+        display: inline-grid;
+        text-align: center;
+    }
+    #before {
+        color: white;
+        border: 2px solid rgb(252, 253, 248);
+        width: 42%;
+        margin: 14px;
+        margin-left: 18px;
+        margin-right: 80px;
+        height: 232px;
+        text-align: center;
+        font-size: 26px;
+        padding:2px;
+        display:static;
+    }
+    
+    
+    #cardt  {
+        background-color:black;
+        margin-left: -11px;
+        margin-top: 13px;
+        height: 244px;
+        display: inline-block;
+    }
+    #cardfo  {
+        background-color:burlywood;
+        margin: 4px 74px 14px 18px;
+        height: 244px;
+        display: inline-grid;
+    }
+    #cardfi  {
+        background-color:gold;
+      
+        height: 244px;
+        margin: 4px 14px 14px -11px;
+        display: inline-grid;
+
+    }
+}
+    @media (min-width:1024px) and (max-width:1366px){
+       
+
+        .card{
+            /* display: inline-grid; */
+            display: inline-flex;
+            height: 242px;
+            /* margin-right: 32px; */
+
+        }
+        #before{
+            
+                color: rgb(235, 220, 12);
+                border: 2px solid rgb(252, 253, 248);
+                width: 30%;
+                margin: 14px;
+                height: 242px;
+                display: inline-grid;
+                text-align: center;
+                font-size: 20px;
+
+        }
+        #sponerssection {
+        background-color: black;
+        }
+        .sp{
+            display: inline-flex;
+            /* background-color: black; */
+
+        }
+        .sp p{
+            padding: 23px;
+            font-size: 25px;
+            text-align: center;
+            color: whitesmoke;
+            font-style: italic;
+        }
+    }
+
+    @media (min-width:935px) and (max-width:1023px){
+        
+        .card{
+            /* display: inline-grid; */
+            display: inline-flex;
+            height: 242px;
+            /* margin-right: 32px; */
+
+        }
+        #before{
+            
+                color: rgb(235, 220, 12);
+                border: 2px solid rgb(252, 253, 248);
+                width: 30%;
+                margin: 14px;
+                height: 242px;
+                display: inline-grid;
+                text-align: center;
+                font-size: 20px;
+
+        }
+        #sponerssection {
+        background-color: black;
+        }
+        .sp{
+            display: inline-flex;
+            /* background-color: black; */
+
+        }
+        .sp p{
+            padding: 23px;
+            font-size: 22px;
+            text-align: center;
+            color: whitesmoke;
+            font-style: italic;
+        }
+    }
+    @media (min-width:840px) and (max-width:934px){
+        
+        .card{
+            /* display: inline-grid; */
+            display: inline-flex;
+            height: 242px;
+            /* margin-right: 32px; */
+
+        }
+        #before{
+            
+                color: rgb(235, 220, 12);
+                border: 2px solid rgb(252, 253, 248);
+                width: 30%;
+                margin: 14px;
+                height: 242px;
+                display: inline-grid;
+                text-align: center;
+                font-size: 20px;
+
+        }
+        #sponerssection {
+        background-color: black;
+        }
+        .sp{
+            display: inline-flex;
+            /* background-color: black; */
+
+        }
+        .sp p{
+            padding: 23px;
+            font-size: 22px;
+            text-align: center;
+            color: whitesmoke;
+            font-style: italic;
+        }
+    }
+    @media (min-width:800px) and (max-width:839px){
+        
+        .card{
+            /* display: inline-grid; */
+            display: inline-flex;
+            height: 242px;
+            width: 45%;
+            /* margin-right: 32px; */
+
+        }
+        #before{
+            
+                color: rgb(235, 220, 12);
+                border: 2px solid rgb(252, 253, 248);
+                width: 45%;
+                margin: 14px;
+                height: 242px;
+                display: inline-grid;
+                text-align: center;
+                font-size: 20px;
+
+        }
+        #sponerssection {
+        background-color: black;
+        }
+        .sp{
+            display: inline-flex;
+           
+            /* background-color: black; */
+
+        }
+        .sp p{
+            padding: 23px;
+            font-size: 22px;
+            text-align: center;
+            color: whitesmoke;
+            font-style: italic;
+        }
+    }
+    @media (min-width:777px) and (max-width:839px){
+        
+        .card{
+            /* display: inline-grid; */
+            display: inline-flex;
+            height: 242px;
+            width: 45%;
+            /* margin-right: 32px; */
+
+        }
+        #before{
+            
+                color: rgb(235, 220, 12);
+                border: 2px solid rgb(252, 253, 248);
+                width: 45%;
+                margin: 14px;
+                height: 242px;
+                display: inline-grid;
+                text-align: center;
+                font-size: 20px;
+
+        }
+        #sponerssection {
+        background-color: black;
+        }
+        .sp{
+            display: inline-flex;
+           
+            /* background-color: black; */
+
+        }
+        .sp p{
+            padding: 23px;
+            font-size: 22px;
+            text-align: center;
+            color: whitesmoke;
+            font-style: italic;
+        }
+    }
+    @media (min-width:501px) and (max-width:776px){
+        
+        .card{
+            /* display: inline-grid; */
+            display: inline-flex;
+            height: 242px;
+            width: 77%;
+            margin: 14px;
+            margin-left: 71px;
+            
+            /* margin-right: 32px; */
+
+        }
+        #before{
+            
+                color: rgb(235, 220, 12);
+                border: 2px solid rgb(252, 253, 248);
+                width: 77%;
+                margin: 14px;
+                margin-left: 71px;
+                display: inline-grid;
+                text-align: center;
+                font-size: 20px;
+
+        }
+        #sponerssection {
+        background-color: black;
+        }
+        .sp{
+            display: inline-flex;
+            font-size: 25px;
+           
+            /* background-color: black; */
+
+        }
+        .sp p{
+            padding: 23px;
+            font-size: 22px;
+            text-align: center;
+            color: whitesmoke;
+            font-style: italic;
+        }
+    }
+    @media (min-width:277px) and (max-width:319px){
+
+        .card{
+            
+                border-radius: 5px;
+                border: 2px solid rgb(252, 253, 248);
+                width: 77%;
+                margin: 14px;
+                margin-left: 37px;
+                height: 200px;
+                display: inline-grid;
+                text-align: center;
+           
+        }
+        #sponerssection h3 {
+            font-size: 19px;
+        }
+        #before {
+            color: white;
+            border: 2px solid rgb(252, 253, 248);
+            width: 77%;
+            margin: 14px;
+            margin-left: 37px;
+            padding: 9px 9px 9px 9px;
+            height: 200px;
+            display: inline-grid;
+            text-align: center;
+            font-size: 19px;
+        }
+        #sponerssection {
+            background-color: black;
+            }
+    }
+
+
+

@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+    }
+    
+    
+    #navbar{
+        display: flex;
+        flex-direction: row;
+        
+        /* background-color: #0c2688; */
+        background-color: red;
+        padding: 12px 28px;
+        color: white;
+        font-size: 18px;
+        
+        
+    }
+    #navbar li{
+        list-style: none;
+        
+    }
+    #navbar li a{
+        cursor: pointer;
+        text-decoration: none;
+        padding: 7px 4px;
+        color: white;
+        font-size: 25px;
+        font-style: bold;
+        
+    }
+    #navbar li a:hover{
+        color: rgb(140, 251, 255);
+    
+    }
+    
+    
+    
+    #introsection {
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center; */
+    
+        background:center/cover no-repeat url("../static/bg.jpeg");
+        height: 500px;
+        color:white;
+        padding: 127px;
+        padding-bottom: 40px;
+        font-size: 35px;
+    }
+    #sponerssection{
+    background-color: goldenrod;
+    height: 650px;
+    
+    }
+    #sponerssection h3{
+    
+        padding: 23px;
+        font-size: 25px;
+        text-align: center;
+        color: whitesmoke;
+        font-style: italic;
+       
+    }
+    .card p{
+       
+        color: green;
+        font-style: italic;
+    }
+    #footer{
+    background-color: orange;
+    display:flex;
+    justify-content: center;
+    margin: 2px;
+    
+    }
+    .we{
+        display: flex;
+        
+        margin: auto;
+        width: 67%;
+        
+        justify-content: center;
+    
+    }
+    #oder{
+        font-size: 30px;
+    }
+     .card{
+        /*border-radius: 15px; */
+        border:  2px solid rgb(252, 253, 248);
+        
+        width: 30%;
+        margin: 14px;
+        height: 200px;
+        display: inline-block;
+        text-align: center;
+    
+        
+    
+    }
+    
+    #card h3 {
+       text-align: center;
+       margin: 25px;
+       margin: auto;
+    
+    }
+    #before{
+        color: rgb(235, 220, 12);
+        border:  2px solid rgb(252, 253, 248);
+        
+        width: 30%;
+        margin: 14px;
+        height: 200px;
+        display: inline-block;
+        text-align: center;
+        font-size: 20px;
+    
+    }
+    .card#before{
+        color: pink;
+        font-size: 24px;
+        
+    }
+    @media (min-width:360px) {
+        nav{
+            background-color: black;
+        }
+    }
+    
+    @media all and (min-width: 360px) and (max-width:410px){
+        #navbar{
+            color:pink;
+
+        }
+    }  

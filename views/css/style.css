@@ -1,0 +1,10 @@
+nav{
+    color: aqua;
+}
+.send{
+    border: 2px solid red;
+    background-color: rgb(195, 195, 255);
+    height: 500px;
+    width:50%;
+    justify-content: center;
+}
