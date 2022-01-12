@@ -50,7 +50,7 @@ box-sizing: border-box;
     font-size: 35px;
 }
 #sponerssection{
-background-color: rgb(166, 216, 245);
+background-color: rgb(2, 25, 39);
 
 color: brown;
 
@@ -139,6 +139,9 @@ margin: 2px;
        font-size: 58px;
 
     }
+    #sponerssection {
+        background-color: black;
+        }
     .card{
         width: 80%;
         margin: 14px;
@@ -216,7 +219,7 @@ margin: 2px;
 } */
 @media (min-width: 411px) and (max-width:500px){
     #navbar{
-       background-color: rgb(248, 68, 24);
+       background-color: rgb(250, 250, 250);
        
     }
     #introsection{
@@ -251,7 +254,7 @@ margin: 2px;
     #introsection{
 
     height: 410px;
-    color: #f4a8c2;
+    color: rgb(248, 163, 6);
     padding: 16px;
     padding-bottom: 40px;
     font-size: 64px; 
