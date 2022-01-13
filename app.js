@@ -7,7 +7,7 @@ const bodyparser = require( "body-parser")
 mongoose.connect('mongodb://localhost/vircontact');
 
 
-const port =80;
+const port = process.env.PORT || 80;
 // define mongoose schemas
 var contactSchema = new mongoose.Schema({ 
     name: String ,
