@@ -4,7 +4,16 @@ const path =require("path")
 const app =express()
 const mongoose = require('mongoose');
 const bodyparser = require( "body-parser")
-mongoose.connect('mongodb://localhost/vircontact');
+
+mongoose.connect(
+    process.env.MONGODB_URI || 'mongodb://localhost/vircontact',
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+      useCreateIndex: true,
+      useFindAndModify: false,
+    },
+  );
 
 
 const port = process.env.PORT || 80;
