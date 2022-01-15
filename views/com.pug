@@ -1,0 +1,32 @@
+extends base.pug
+
+block scripts
+    script(src="/static/com.js") ") 
+
+block style
+    style 
+        include ../static/style.css
+        include com.css
+    //-  include ../static/home.css
+    
+block content
+    nav#navbar 
+        div.image 
+       
+
+
+        | GWBI
+        ul 
+        li #[a(href="/") home]
+                
+         li #[a(href="/contact") contact ]
+         li #[a(href="/comments") comments ]
+
+
+                .container
+                  input#input(type='text' placeholder='commment')
+                  button#comment(type='button' name='button') comment
+                  button#cancel(type='button' name='button') cancel
+                  .box-container
+                    .box
+

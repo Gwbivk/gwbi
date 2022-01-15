@@ -1,14 +1,12 @@
-// const { connection } = require('mongoose');
-
-const io= require('socket.io')(8000)
-const user ={};
-
-io.on('connection',socket =>{
-    socket.on('new-user', name=>{
-        users[socket.id] =name;
-
+(document).ready(function(){
+    $('#comment').click(function(){
+        var input =$('#input').val();
+        $('.box').append(input +'<br>')
+        $('#input').val('');
+        $(".box-container").slidedown();
     })
-    socket.on('send', message=>{
-        socket.brodcast.emit('recive',{meassage:message,name:users[socket.id]})
+    $('#cancel').click(function(){
+        $('#input').val('')
+
     })
 })

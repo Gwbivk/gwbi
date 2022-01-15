@@ -5,15 +5,15 @@ const app =express()
 const mongoose = require('mongoose');
 const bodyparser = require( "body-parser")
 
-mongoose.connect(
-    process.env.MONGODB_URI || 'mongodb://localhost/vircontact',
-    {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-      useCreateIndex: true,
-      useFindAndModify: false,
-    },
-  );
+// mongoose.connect(
+//     process.env.MONGODB_URI || 'mongodb://localhost/vircontact',
+//     {
+//       useNewUrlParser: true,
+//       useUnifiedTopology: true,
+//       useCreateIndex: true,
+//       useFindAndModify: false,
+//     },
+//   );
 
 
 const port = process.env.PORT || 80;
@@ -46,6 +46,11 @@ app.set('views',path.join(__dirname,'views'))
 app.get('/',(req,res)=>{
     const params ={}
     res.status(200).render('home.pug',params);
+
+})
+app.get('/com',(req,res)=>{
+    const params ={}
+    res.status(200).render('com.pug',params);
 
 })
 
