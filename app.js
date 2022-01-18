@@ -76,8 +76,8 @@ app.use('/static',express.static('static'))
 
 //pug specific stuff
 app.set('view engine','html')
-app.set('views',path.join(__dirname,'views'))
-
+app.set('',path.join(__dirname,''))
+// biewa to be added
 
 //endpoints
 // app.get('/',(req,res)=>{
